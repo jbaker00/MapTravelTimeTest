@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD066A442093D6F800862D7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD066A432093D6F800862D7A /* AppDelegate.m */; };
+		AD066A472093D6F800862D7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD066A462093D6F800862D7A /* ViewController.m */; };
+		AD066A4A2093D6F800862D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD066A482093D6F800862D7A /* Main.storyboard */; };
+		AD066A4C2093D6F800862D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD066A4B2093D6F800862D7A /* Assets.xcassets */; };
+		AD066A4F2093D6F800862D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD066A4D2093D6F800862D7A /* LaunchScreen.storyboard */; };
+		AD066A522093D6F800862D7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD066A512093D6F800862D7A /* main.m */; };
+		AD066A5C2093D6F800862D7A /* MapTravelTimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD066A5B2093D6F800862D7A /* MapTravelTimeTestTests.m */; };
+		AD066A672093D6F800862D7A /* MapTravelTimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD066A662093D6F800862D7A /* MapTravelTimeTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD066A582093D6F800862D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD066A372093D6F700862D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD066A3E2093D6F800862D7A;
+			remoteInfo = MapTravelTimeTest;
+		};
+		AD066A632093D6F800862D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD066A372093D6F700862D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD066A3E2093D6F800862D7A;
+			remoteInfo = MapTravelTimeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD066A3F2093D6F800862D7A /* MapTravelTimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapTravelTimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD066A422093D6F800862D7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD066A432093D6F800862D7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD066A452093D6F800862D7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD066A462093D6F800862D7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD066A492093D6F800862D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD066A4B2093D6F800862D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD066A4E2093D6F800862D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD066A502093D6F800862D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD066A512093D6F800862D7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD066A572093D6F800862D7A /* MapTravelTimeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapTravelTimeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD066A5B2093D6F800862D7A /* MapTravelTimeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTravelTimeTestTests.m; sourceTree = "<group>"; };
+		AD066A5D2093D6F800862D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD066A622093D6F800862D7A /* MapTravelTimeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapTravelTimeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD066A662093D6F800862D7A /* MapTravelTimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTravelTimeTestUITests.m; sourceTree = "<group>"; };
+		AD066A682093D6F800862D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD066A3C2093D6F800862D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD066A542093D6F800862D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD066A5F2093D6F800862D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD066A362093D6F700862D7A = {
+			isa = PBXGroup;
+			children = (
+				AD066A412093D6F800862D7A /* MapTravelTimeTest */,
+				AD066A5A2093D6F800862D7A /* MapTravelTimeTestTests */,
+				AD066A652093D6F800862D7A /* MapTravelTimeTestUITests */,
+				AD066A402093D6F800862D7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD066A402093D6F800862D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD066A3F2093D6F800862D7A /* MapTravelTimeTest.app */,
+				AD066A572093D6F800862D7A /* MapTravelTimeTestTests.xctest */,
+				AD066A622093D6F800862D7A /* MapTravelTimeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD066A412093D6F800862D7A /* MapTravelTimeTest */ = {
+			isa = PBXGroup;
+			children = (
+				AD066A422093D6F800862D7A /* AppDelegate.h */,
+				AD066A432093D6F800862D7A /* AppDelegate.m */,
+				AD066A452093D6F800862D7A /* ViewController.h */,
+				AD066A462093D6F800862D7A /* ViewController.m */,
+				AD066A482093D6F800862D7A /* Main.storyboard */,
+				AD066A4B2093D6F800862D7A /* Assets.xcassets */,
+				AD066A4D2093D6F800862D7A /* LaunchScreen.storyboard */,
+				AD066A502093D6F800862D7A /* Info.plist */,
+				AD066A512093D6F800862D7A /* main.m */,
+			);
+			path = MapTravelTimeTest;
+			sourceTree = "<group>";
+		};
+		AD066A5A2093D6F800862D7A /* MapTravelTimeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD066A5B2093D6F800862D7A /* MapTravelTimeTestTests.m */,
+				AD066A5D2093D6F800862D7A /* Info.plist */,
+			);
+			path = MapTravelTimeTestTests;
+			sourceTree = "<group>";
+		};
+		AD066A652093D6F800862D7A /* MapTravelTimeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD066A662093D6F800862D7A /* MapTravelTimeTestUITests.m */,
+				AD066A682093D6F800862D7A /* Info.plist */,
+			);
+			path = MapTravelTimeTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD066A3E2093D6F800862D7A /* MapTravelTimeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD066A6B2093D6F800862D7A /* Build configuration list for PBXNativeTarget "MapTravelTimeTest" */;
+			buildPhases = (
+				AD066A3B2093D6F800862D7A /* Sources */,
+				AD066A3C2093D6F800862D7A /* Frameworks */,
+				AD066A3D2093D6F800862D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapTravelTimeTest;
+			productName = MapTravelTimeTest;
+			productReference = AD066A3F2093D6F800862D7A /* MapTravelTimeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD066A562093D6F800862D7A /* MapTravelTimeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD066A6E2093D6F800862D7A /* Build configuration list for PBXNativeTarget "MapTravelTimeTestTests" */;
+			buildPhases = (
+				AD066A532093D6F800862D7A /* Sources */,
+				AD066A542093D6F800862D7A /* Frameworks */,
+				AD066A552093D6F800862D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD066A592093D6F800862D7A /* PBXTargetDependency */,
+			);
+			name = MapTravelTimeTestTests;
+			productName = MapTravelTimeTestTests;
+			productReference = AD066A572093D6F800862D7A /* MapTravelTimeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD066A612093D6F800862D7A /* MapTravelTimeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD066A712093D6F800862D7A /* Build configuration list for PBXNativeTarget "MapTravelTimeTestUITests" */;
+			buildPhases = (
+				AD066A5E2093D6F800862D7A /* Sources */,
+				AD066A5F2093D6F800862D7A /* Frameworks */,
+				AD066A602093D6F800862D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD066A642093D6F800862D7A /* PBXTargetDependency */,
+			);
+			name = MapTravelTimeTestUITests;
+			productName = MapTravelTimeTestUITests;
+			productReference = AD066A622093D6F800862D7A /* MapTravelTimeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD066A372093D6F700862D7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Baker, James";
+				TargetAttributes = {
+					AD066A3E2093D6F800862D7A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AD066A562093D6F800862D7A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD066A3E2093D6F800862D7A;
+					};
+					AD066A612093D6F800862D7A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD066A3E2093D6F800862D7A;
+					};
+				};
+			};
+			buildConfigurationList = AD066A3A2093D6F700862D7A /* Build configuration list for PBXProject "MapTravelTimeTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD066A362093D6F700862D7A;
+			productRefGroup = AD066A402093D6F800862D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD066A3E2093D6F800862D7A /* MapTravelTimeTest */,
+				AD066A562093D6F800862D7A /* MapTravelTimeTestTests */,
+				AD066A612093D6F800862D7A /* MapTravelTimeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD066A3D2093D6F800862D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD066A4F2093D6F800862D7A /* LaunchScreen.storyboard in Resources */,
+				AD066A4C2093D6F800862D7A /* Assets.xcassets in Resources */,
+				AD066A4A2093D6F800862D7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD066A552093D6F800862D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD066A602093D6F800862D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD066A3B2093D6F800862D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD066A472093D6F800862D7A /* ViewController.m in Sources */,
+				AD066A522093D6F800862D7A /* main.m in Sources */,
+				AD066A442093D6F800862D7A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD066A532093D6F800862D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD066A5C2093D6F800862D7A /* MapTravelTimeTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD066A5E2093D6F800862D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD066A672093D6F800862D7A /* MapTravelTimeTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD066A592093D6F800862D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD066A3E2093D6F800862D7A /* MapTravelTimeTest */;
+			targetProxy = AD066A582093D6F800862D7A /* PBXContainerItemProxy */;
+		};
+		AD066A642093D6F800862D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD066A3E2093D6F800862D7A /* MapTravelTimeTest */;
+			targetProxy = AD066A632093D6F800862D7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD066A482093D6F800862D7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD066A492093D6F800862D7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD066A4D2093D6F800862D7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD066A4E2093D6F800862D7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD066A692093D6F800862D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD066A6A2093D6F800862D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD066A6C2093D6F800862D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapTravelTimeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Baker.MapTravelTimeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD066A6D2093D6F800862D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapTravelTimeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Baker.MapTravelTimeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD066A6F2093D6F800862D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapTravelTimeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Baker.MapTravelTimeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapTravelTimeTest.app/MapTravelTimeTest";
+			};
+			name = Debug;
+		};
+		AD066A702093D6F800862D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapTravelTimeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Baker.MapTravelTimeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapTravelTimeTest.app/MapTravelTimeTest";
+			};
+			name = Release;
+		};
+		AD066A722093D6F800862D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapTravelTimeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Baker.MapTravelTimeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapTravelTimeTest;
+			};
+			name = Debug;
+		};
+		AD066A732093D6F800862D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MapTravelTimeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Baker.MapTravelTimeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapTravelTimeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD066A3A2093D6F700862D7A /* Build configuration list for PBXProject "MapTravelTimeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD066A692093D6F800862D7A /* Debug */,
+				AD066A6A2093D6F800862D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD066A6B2093D6F800862D7A /* Build configuration list for PBXNativeTarget "MapTravelTimeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD066A6C2093D6F800862D7A /* Debug */,
+				AD066A6D2093D6F800862D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD066A6E2093D6F800862D7A /* Build configuration list for PBXNativeTarget "MapTravelTimeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD066A6F2093D6F800862D7A /* Debug */,
+				AD066A702093D6F800862D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD066A712093D6F800862D7A /* Build configuration list for PBXNativeTarget "MapTravelTimeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD066A722093D6F800862D7A /* Debug */,
+				AD066A732093D6F800862D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD066A372093D6F700862D7A /* Project object */;
+}
