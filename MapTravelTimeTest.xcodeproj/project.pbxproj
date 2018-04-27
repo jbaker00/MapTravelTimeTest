@@ -15,6 +15,8 @@
 		AD066A522093D6F800862D7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD066A512093D6F800862D7A /* main.m */; };
 		AD066A5C2093D6F800862D7A /* MapTravelTimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD066A5B2093D6F800862D7A /* MapTravelTimeTestTests.m */; };
 		AD066A672093D6F800862D7A /* MapTravelTimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD066A662093D6F800862D7A /* MapTravelTimeTestUITests.m */; };
+		AD066A762093DB2E00862D7A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD066A752093DB2D00862D7A /* MapKit.framework */; };
+		AD066A782093DB3F00862D7A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD066A772093DB3F00862D7A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		AD066A622093D6F800862D7A /* MapTravelTimeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapTravelTimeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD066A662093D6F800862D7A /* MapTravelTimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTravelTimeTestUITests.m; sourceTree = "<group>"; };
 		AD066A682093D6F800862D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD066A752093DB2D00862D7A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AD066A772093DB3F00862D7A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD066A782093DB3F00862D7A /* CoreLocation.framework in Frameworks */,
+				AD066A762093DB2E00862D7A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 				AD066A5A2093D6F800862D7A /* MapTravelTimeTestTests */,
 				AD066A652093D6F800862D7A /* MapTravelTimeTestUITests */,
 				AD066A402093D6F800862D7A /* Products */,
+				AD066A742093DB2D00862D7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +137,15 @@
 				AD066A682093D6F800862D7A /* Info.plist */,
 			);
 			path = MapTravelTimeTestUITests;
+			sourceTree = "<group>";
+		};
+		AD066A742093DB2D00862D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD066A772093DB3F00862D7A /* CoreLocation.framework */,
+				AD066A752093DB2D00862D7A /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				INFOPLIST_FILE = MapTravelTimeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Baker.MapTravelTimeTest;
@@ -444,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				INFOPLIST_FILE = MapTravelTimeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Baker.MapTravelTimeTest;
